@@ -11,7 +11,10 @@ header {
 body {
     background-color: #f2f2f2;
     margin: 0 auto;
+}
 
+#sides {
+    background-color: #7abfbf;
 }
 
 footer {
@@ -31,6 +34,10 @@ h2 {
 h3 {
     font-family: 'bebas neue';
     font-size: 25px;
+}
+
+p {
+    margin: 10px;
 }
 
 dt {
@@ -76,11 +83,23 @@ body {
     margin: 0 auto;
 }
 
+img {
+    max-width: 414px;
+}
+
+h1, h2, h3 {
+    text-align: center;
 }
 
 #main li {
     display: inline-flex;
     max-width: 100%;
+}
+
+div{
+    display: inline;
+}
+
 }
 
 @media screen and (min-width: 768px) {
