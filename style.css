@@ -1,13 +1,96 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Montserrat:wght@400;700&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap');
 
 html {
-    background-color: #7abfbf;
+    background-color: rgba(122, 191, 191, .5);
 } 
 
 header {
     background-color: #fff;
 }
 
-main {
+body {
     background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: 'bebas neue';
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'bebas neue';
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'bebas neue';
+    font-size: 25px;
+}
+
+menu li {
+    font-family: 'bebas neue';
+    color: #eb5428;
+    font-size: 20px;
+}
+
+menu a {
+    text-decoration: none;
+    color: #eb5428;
+}
+
+footer {
+    font-family: 'bebas neue';
+    font-size: 20px;
+}
+
+footer h2, footer h3 {
+    display: none;
+}
+
+#social {
+    display: inline-flex;
+    list-style: none;
+}
+
+#social li {
+    font-family: 'bebas neue';
+    font-size: 20px;
+    display: block;
+}
+
+
+@media screen and (min-width: 414px) {
+
+body {
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+body {
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (min-width: 1280px) {
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#details {
+    background-color: #000;
+    color: #7abfbf;
+}
+
 }
